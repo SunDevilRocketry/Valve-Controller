@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name L0005-Valve-Controller)(type Legacy)(uri /home/olsport/Documents/SDR/PCB/L0005-Valve-Controller/lib/L0005-Valve-Controller.lib)(options "")(descr ""))
   (lib (name Engine-Controller)(type Legacy)(uri /home/olsport/Documents/SDR/PCB/Liquids-Engine-Controller/lib/Engine-Controller.lib)(options "")(descr ""))
+  (lib (name Device)(type Legacy)(uri /home/olsport/Software/kicad/kicad-symbols-master/Device.lib)(options "")(descr ""))
 )
