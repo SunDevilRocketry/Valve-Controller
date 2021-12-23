@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 647676-3
+D Connector
+$ENDCMP
+#
+$CMP CAP_Polar
+D Polarized capacitor, US symbol
+K cap capacitor
+F ~
+$ENDCMP
+#
 $CMP STM32L151CCTx
 D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M3 STM32L1 STM32L151/152

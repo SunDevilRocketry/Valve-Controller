@@ -1,4 +1,4 @@
-63748621168636
+86696177506892
 Engine-Controller
 12V_power_jack
 
@@ -237,6 +237,90 @@ USB-TypeB
 0
 6
 6
+L0004-Photogate
+DIO_VSMY2853SL
+IR Emitter
+
+0
+2
+2
+L0004-Photogate
+MountingHole_2.1mm
+Mounting Hole 2.1mm, no annular
+mounting hole 2.1mm no annular
+0
+0
+0
+L0004-Photogate
+RES_0603
+
+
+0
+2
+2
+L0004-Photogate
+SML-LX1206GC-TR
+Green LED
+
+0
+2
+2
+L0004-Photogate
+SOT230P700X180-4N
+Regulator
+
+0
+4
+4
+L0004-Photogate
+T491A106K010AT
+10 microFarad Tantalum Capacitor
+
+0
+2
+2
+L0004-Photogate
+TE_647676-3
+Connector
+
+0
+3
+3
+L0004-Photogate
+TP
+Test Point
+
+0
+1
+1
+L0004-Photogate
+XDCR_SFH_3015_FA
+Phototransistor
+
+0
+2
+2
+L0004-Photogate
+logo2
+
+
+0
+0
+0
+L0005-Valve-Controller
+3220-20-0200-00
+.050" (1,27mm) Shrouded Header for FFSD Series without Strain Relief.
+
+0
+20
+20
+L0005-Valve-Controller
+647676-3
+Connector
+
+0
+3
+3
 L0005-Valve-Controller
 CAP_1206
 
@@ -244,6 +328,20 @@ CAP_1206
 0
 2
 2
+L0005-Valve-Controller
+CWR11HH106KB
+
+
+0
+2
+2
+L0005-Valve-Controller
+LMS8117AMP-3.3NOPB
+
+
+0
+4
+4
 L0005-Valve-Controller
 PV275K4032R2
 
