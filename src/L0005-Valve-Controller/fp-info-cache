@@ -1,4 +1,4 @@
-86696177506892
+91617015686892
 Engine-Controller
 12V_power_jack
 
@@ -308,6 +308,13 @@ logo2
 0
 0
 L0005-Valve-Controller
+140-504-415-000
+
+
+0
+4
+4
+L0005-Valve-Controller
 3220-20-0200-00
 .050" (1,27mm) Shrouded Header for FFSD Series without Strain Relief.
 
@@ -315,12 +322,26 @@ L0005-Valve-Controller
 20
 20
 L0005-Valve-Controller
+51025-03-0100-01
+
+
+0
+3
+3
+L0005-Valve-Controller
 647676-3
 Connector
 
 0
 3
 3
+L0005-Valve-Controller
+CAP_0603
+<b>CAPACITOR</b>
+
+0
+2
+2
 L0005-Valve-Controller
 CAP_1206
 

@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 647676-2
+D Connector
+$ENDCMP
+#
 $CMP 647676-3
 D Connector
 $ENDCMP
@@ -8,6 +12,18 @@ $CMP CAP_Polar
 D Polarized capacitor, US symbol
 K cap capacitor
 F ~
+$ENDCMP
+#
+$CMP EL817
+D DC Optocoupler, Vce 35V, DIP-4
+K NPN DC Optocoupler
+F http://www.everlight.com/file/ProductFile/EL817.pdf
+$ENDCMP
+#
+$CMP Optocoupler
+D DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4
+K NPN DC Optocoupler
+F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
 $ENDCMP
 #
 $CMP STM32L151CCTx
