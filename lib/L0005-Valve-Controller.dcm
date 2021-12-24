@@ -20,6 +20,12 @@ K NPN DC Optocoupler
 F http://www.everlight.com/file/ProductFile/EL817.pdf
 $ENDCMP
 #
+$CMP Jumper_NO
+D Jumper, 2-pole, open
+K Jumper SPST
+F ~
+$ENDCMP
+#
 $CMP Optocoupler
 D DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4
 K NPN DC Optocoupler
