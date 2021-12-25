@@ -1,4 +1,4 @@
-91617015686892
+109662219610892
 Engine-Controller
 12V_power_jack
 
@@ -322,15 +322,22 @@ L0005-Valve-Controller
 20
 20
 L0005-Valve-Controller
-51025-03-0100-01
+150120AS75000
 
+
+0
+2
+2
+L0005-Valve-Controller
+647676-3
+Connector
 
 0
 3
 3
 L0005-Valve-Controller
-647676-3
-Connector
+353130360
+
 
 0
 3
@@ -357,7 +364,63 @@ CWR11HH106KB
 2
 2
 L0005-Valve-Controller
+Jumper-NO
+<b>CAPACITOR</b>
+
+0
+2
+2
+L0005-Valve-Controller
 LMS8117AMP-3.3NOPB
+
+
+0
+4
+4
+L0005-Valve-Controller
+LPC54113J256BD64QL
+
+
+0
+64
+64
+L0005-Valve-Controller
+Logo
+
+
+0
+0
+0
+L0005-Valve-Controller
+MAX3370EXK&plus_T
+
+
+0
+5
+5
+L0005-Valve-Controller
+MOLEX_35362-0650
+
+
+0
+6
+6
+L0005-Valve-Controller
+MountingHole_4.3mm_M4_DIN965
+Mounting Hole 4.3mm, no annular, M4, DIN965
+mounting hole 4.3mm no annular m4 din965
+0
+0
+0
+L0005-Valve-Controller
+Opto_140105146000
+
+
+0
+4
+4
+L0005-Valve-Controller
+PTS647SM38SMTR2LFS
 
 
 0
@@ -385,9 +448,23 @@ RES_0603
 2
 2
 L0005-Valve-Controller
-STM32L151CCT6
-LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-LQFP QFP
+SML-LX1206GC-TR
+
+
 0
-48
-48
+2
+2
+L0005-Valve-Controller
+TE_647676-2
+
+
+0
+2
+2
+L0005-Valve-Controller
+TP
+
+
+0
+1
+1
