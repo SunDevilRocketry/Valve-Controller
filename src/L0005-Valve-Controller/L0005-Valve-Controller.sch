@@ -1,4 +1,449 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "L0005 Valve Controller"
+Date "2021-12-25"
+Rev "1.0"
+Comp "Sun Devil Rocketry "
+Comment1 "Avionics Team"
+Comment2 "Author: Colton Acosta"
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 1125 2975 0    50   Input ~ 0
+3.3V
+$Comp
+L L0005-Valve-Controller:Earth #PWR03
+U 1 1 61C99CBB
+P 2575 3125
+F 0 "#PWR03" H 2575 2875 50  0001 C CNN
+F 1 "Earth" H 2575 2975 50  0001 C CNN
+F 2 "" H 2575 3125 50  0001 C CNN
+F 3 "" H 2575 3125 50  0001 C CNN
+	1    2575 3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2575 3075 2575 3125
+Wire Wire Line
+	2575 3075 2800 3075
+Connection ~ 1875 2975
+Wire Wire Line
+	2800 2975 1875 2975
+$Comp
+L L0005-Valve-Controller:CAP_0603 C2
+U 1 1 61C7BCE1
+P 1450 3175
+F 0 "C2" V 1404 3278 50  0000 L CNN
+F 1 "0.1uF" V 1495 3278 50  0000 L CNN
+F 2 "" H 1350 2775 50  0001 L BNN
+F 3 "" H 1400 3175 50  0001 L BNN
+	1    1450 3175
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1450 3325 1450 3375
+Wire Wire Line
+	1450 3025 1450 2975
+Connection ~ 1675 3375
+Wire Wire Line
+	1875 3375 1875 3325
+Wire Wire Line
+	1675 3375 1875 3375
+Wire Wire Line
+	1675 3375 1675 3400
+Wire Wire Line
+	1450 3375 1675 3375
+$Comp
+L L0005-Valve-Controller:Earth #PWR01
+U 1 1 61C8C7F2
+P 1675 3400
+F 0 "#PWR01" H 1675 3150 50  0001 C CNN
+F 1 "Earth" H 1675 3250 50  0001 C CNN
+F 2 "" H 1675 3400 50  0001 C CNN
+F 3 "" H 1675 3400 50  0001 C CNN
+	1    1675 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 2975 1875 2975
+Wire Wire Line
+	1875 2975 1875 3025
+$Comp
+L L0005-Valve-Controller:CAP_0603 C5
+U 1 1 61C7CDD0
+P 1875 3175
+F 0 "C5" V 1829 3278 50  0000 L CNN
+F 1 "10nF" V 1920 3278 50  0000 L CNN
+F 2 "" H 1775 2775 50  0001 L BNN
+F 3 "" H 1825 3175 50  0001 L BNN
+	1    1875 3175
+	0    1    1    0   
+$EndComp
+$Comp
+L L0005-Valve-Controller:CAP_0603 C11
+U 1 1 61CA87B6
+P 5950 3275
+F 0 "C11" V 5904 3378 50  0000 L CNN
+F 1 "0.1uF" V 5995 3378 50  0000 L CNN
+F 2 "" H 5850 2875 50  0001 L BNN
+F 3 "" H 5900 3275 50  0001 L BNN
+	1    5950 3275
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 3425 5950 3475
+Wire Wire Line
+	5950 3125 5950 3075
+Connection ~ 6175 3475
+Wire Wire Line
+	6375 3475 6375 3425
+Wire Wire Line
+	6175 3475 6375 3475
+Wire Wire Line
+	6175 3475 6175 3500
+Wire Wire Line
+	5950 3475 6175 3475
+$Comp
+L L0005-Valve-Controller:Earth #PWR08
+U 1 1 61CA87C3
+P 6175 3500
+F 0 "#PWR08" H 6175 3250 50  0001 C CNN
+F 1 "Earth" H 6175 3350 50  0001 C CNN
+F 2 "" H 6175 3500 50  0001 C CNN
+F 3 "" H 6175 3500 50  0001 C CNN
+	1    6175 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3075 6375 3075
+Wire Wire Line
+	6375 3075 6375 3125
+$Comp
+L L0005-Valve-Controller:CAP_0603 C13
+U 1 1 61CA87CB
+P 6375 3275
+F 0 "C13" V 6329 3378 50  0000 L CNN
+F 1 "10nF" V 6420 3378 50  0000 L CNN
+F 2 "" H 6275 2875 50  0001 L BNN
+F 3 "" H 6325 3275 50  0001 L BNN
+	1    6375 3275
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 3075 5950 3075
+Connection ~ 5950 3075
+$Comp
+L L0005-Valve-Controller:Earth #PWR06
+U 1 1 61CB02F7
+P 5600 3200
+F 0 "#PWR06" H 5600 2950 50  0001 C CNN
+F 1 "Earth" H 5600 3050 50  0001 C CNN
+F 2 "" H 5600 3200 50  0001 C CNN
+F 3 "" H 5600 3200 50  0001 C CNN
+	1    5600 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3175 5600 3175
+Wire Wire Line
+	5600 3175 5600 3200
+Connection ~ 1600 4575
+Wire Wire Line
+	2800 4575 2725 4575
+$Comp
+L L0005-Valve-Controller:CAP_0603 C1
+U 1 1 61CBC450
+P 1225 4775
+F 0 "C1" V 1175 4550 50  0000 L CNN
+F 1 "0.1uF" V 1275 4450 50  0000 L CNN
+F 2 "" H 1125 4375 50  0001 L BNN
+F 3 "" H 1175 4775 50  0001 L BNN
+	1    1225 4775
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1225 4925 1225 4975
+Wire Wire Line
+	1225 4625 1225 4575
+Wire Wire Line
+	1600 4975 1600 4925
+Wire Wire Line
+	1825 4975 1600 4975
+Wire Wire Line
+	1825 4975 1825 5025
+Wire Wire Line
+	1225 4975 1600 4975
+$Comp
+L L0005-Valve-Controller:Earth #PWR02
+U 1 1 61CBC45D
+P 1825 5025
+F 0 "#PWR02" H 1825 4775 50  0001 C CNN
+F 1 "Earth" H 1825 4875 50  0001 C CNN
+F 2 "" H 1825 5025 50  0001 C CNN
+F 3 "" H 1825 5025 50  0001 C CNN
+	1    1825 5025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1225 4575 1600 4575
+Wire Wire Line
+	1600 4575 1600 4625
+$Comp
+L L0005-Valve-Controller:CAP_0603 C4
+U 1 1 61CBC465
+P 1600 4775
+F 0 "C4" V 1550 4575 50  0000 L CNN
+F 1 "10nF" V 1650 4500 50  0000 L CNN
+F 2 "" H 1500 4375 50  0001 L BNN
+F 3 "" H 1550 4775 50  0001 L BNN
+	1    1600 4775
+	0    1    1    0   
+$EndComp
+$Comp
+L L0005-Valve-Controller:Earth #PWR04
+U 1 1 61CBCF75
+P 2625 4700
+F 0 "#PWR04" H 2625 4450 50  0001 C CNN
+F 1 "Earth" H 2625 4550 50  0001 C CNN
+F 2 "" H 2625 4700 50  0001 C CNN
+F 3 "" H 2625 4700 50  0001 C CNN
+	1    2625 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4675 2625 4675
+Wire Wire Line
+	2625 4675 2625 4700
+$Comp
+L L0005-Valve-Controller:CAP_0603 C10
+U 1 1 61CC2826
+P 5750 5475
+F 0 "C10" V 5704 5578 50  0000 L CNN
+F 1 "0.1uF" V 5795 5578 50  0000 L CNN
+F 2 "" H 5650 5075 50  0001 L BNN
+F 3 "" H 5700 5475 50  0001 L BNN
+	1    5750 5475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 5625 5750 5675
+Wire Wire Line
+	5750 5325 5750 5275
+Connection ~ 5975 5675
+Wire Wire Line
+	6175 5675 6175 5625
+Wire Wire Line
+	5975 5675 6175 5675
+Wire Wire Line
+	5975 5675 5975 5700
+Wire Wire Line
+	5750 5675 5975 5675
+$Comp
+L L0005-Valve-Controller:Earth #PWR07
+U 1 1 61CC2833
+P 5975 5700
+F 0 "#PWR07" H 5975 5450 50  0001 C CNN
+F 1 "Earth" H 5975 5550 50  0001 C CNN
+F 2 "" H 5975 5700 50  0001 C CNN
+F 3 "" H 5975 5700 50  0001 C CNN
+	1    5975 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 5275 6175 5275
+Wire Wire Line
+	6175 5275 6175 5325
+$Comp
+L L0005-Valve-Controller:CAP_0603 C12
+U 1 1 61CC283B
+P 6175 5475
+F 0 "C12" V 6129 5578 50  0000 L CNN
+F 1 "10nF" V 6220 5578 50  0000 L CNN
+F 2 "" H 6075 5075 50  0001 L BNN
+F 3 "" H 6125 5475 50  0001 L BNN
+	1    6175 5475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 5275 5750 5275
+Connection ~ 5750 5275
+$Comp
+L L0005-Valve-Controller:Earth #PWR05
+U 1 1 61CC5C86
+P 5400 5475
+F 0 "#PWR05" H 5400 5225 50  0001 C CNN
+F 1 "Earth" H 5400 5325 50  0001 C CNN
+F 2 "" H 5400 5475 50  0001 C CNN
+F 3 "" H 5400 5475 50  0001 C CNN
+	1    5400 5475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 5375 5400 5475
+$Comp
+L L0005-Valve-Controller:LPC54113J256BD64QL U1
+U 1 1 61C7A433
+P 4125 3775
+F 0 "U1" H 4100 5506 60  0000 C CNN
+F 1 "LPC54113J256BD64QL" H 4100 5575 60  0001 C CNN
+F 2 "LQFP64_10X10_NXP" H 4100 5515 60  0001 C CNN
+F 3 "" H 2800 5275 60  0001 C CNN
+	1    4125 3775
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5400 5175
+Wire Wire Line
+	1125 2975 1450 2975
+Connection ~ 1450 2975
+Text GLabel 1100 4000 0    50   Input ~ 0
+3.3V
+Text GLabel 6600 3075 2    50   Input ~ 0
+3.3V
+Wire Wire Line
+	6600 3075 6375 3075
+Connection ~ 6375 3075
+Text GLabel 6450 5275 2    50   Input ~ 0
+3.3V
+Wire Wire Line
+	6450 5275 6175 5275
+Connection ~ 6175 5275
+Wire Wire Line
+	2800 4275 2625 4275
+Wire Wire Line
+	2625 4275 2625 4400
+Connection ~ 2625 4675
+Wire Wire Line
+	2800 4175 2625 4175
+Wire Wire Line
+	2625 4175 2625 4275
+Connection ~ 2625 4275
+Connection ~ 1600 4975
+$Comp
+L L0005-Valve-Controller:CAP_0603 C7
+U 1 1 61CF1DF3
+P 2025 4775
+F 0 "C7" V 1975 4550 50  0000 L CNN
+F 1 "0.1uF" V 2075 4450 50  0000 L CNN
+F 2 "" H 1925 4375 50  0001 L BNN
+F 3 "" H 1975 4775 50  0001 L BNN
+	1    2025 4775
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2025 4625 2025 4575
+Connection ~ 2025 4575
+Wire Wire Line
+	2025 4575 1600 4575
+Wire Wire Line
+	2025 4925 2025 4975
+Wire Wire Line
+	2025 4975 1825 4975
+Connection ~ 1825 4975
+$Comp
+L L0005-Valve-Controller:CAP_0603 C9
+U 1 1 61CF93FC
+P 2400 4775
+F 0 "C9" V 2350 4575 50  0000 L CNN
+F 1 "10uF" V 2450 4500 50  0000 L CNN
+F 2 "" H 2300 4375 50  0001 L BNN
+F 3 "" H 2350 4775 50  0001 L BNN
+	1    2400 4775
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 4625 2400 4575
+Connection ~ 2400 4575
+Wire Wire Line
+	2400 4575 2025 4575
+Wire Wire Line
+	2400 4925 2400 4975
+Wire Wire Line
+	2400 4975 2025 4975
+Connection ~ 2025 4975
+Wire Wire Line
+	2800 4475 2725 4475
+Wire Wire Line
+	2725 4475 2725 4575
+Connection ~ 2725 4575
+Wire Wire Line
+	2725 4575 2400 4575
+$Comp
+L L0005-Valve-Controller:CAP_0603 C8
+U 1 1 61D0C74A
+P 2400 4200
+F 0 "C8" V 2350 4025 50  0000 L CNN
+F 1 "0.1uF" V 2450 3900 50  0000 L CNN
+F 2 "" H 2300 3800 50  0001 L BNN
+F 3 "" H 2350 4200 50  0001 L BNN
+	1    2400 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L L0005-Valve-Controller:CAP_0603 C6
+U 1 1 61D0D984
+P 2000 4200
+F 0 "C6" V 1950 4025 50  0000 L CNN
+F 1 "0.1uF" V 2050 3900 50  0000 L CNN
+F 2 "" H 1900 3800 50  0001 L BNN
+F 3 "" H 1950 4200 50  0001 L BNN
+	1    2000 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L L0005-Valve-Controller:CAP_0603 C3
+U 1 1 61D110DD
+P 1575 4200
+F 0 "C3" V 1525 4000 50  0000 L CNN
+F 1 "10uF" V 1625 3925 50  0000 L CNN
+F 2 "" H 1475 3800 50  0001 L BNN
+F 3 "" H 1525 4200 50  0001 L BNN
+	1    1575 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1575 4050 1575 4000
+Wire Wire Line
+	1575 4000 2000 4000
+Wire Wire Line
+	2400 4000 2400 4050
+Wire Wire Line
+	2000 4050 2000 4000
+Connection ~ 2000 4000
+Wire Wire Line
+	2000 4000 2400 4000
+Wire Wire Line
+	1575 4350 1575 4400
+Wire Wire Line
+	1575 4400 2000 4400
+Wire Wire Line
+	2400 4400 2400 4350
+Wire Wire Line
+	2000 4350 2000 4400
+Connection ~ 2000 4400
+Wire Wire Line
+	2000 4400 2400 4400
+Wire Wire Line
+	2400 4400 2625 4400
+Connection ~ 2400 4400
+Connection ~ 2625 4400
+Wire Wire Line
+	2625 4400 2625 4675
+Wire Wire Line
+	1575 4000 1225 4000
+Connection ~ 1575 4000
+Wire Wire Line
+	1225 4575 1225 4000
+Connection ~ 1225 4575
+Connection ~ 1225 4000
+Wire Wire Line
+	1225 4000 1100 4000
+Wire Wire Line
+	2800 4375 2725 4375
+Wire Wire Line
+	2725 4375 2725 4475
+Connection ~ 2725 4475
 $EndSCHEMATC
