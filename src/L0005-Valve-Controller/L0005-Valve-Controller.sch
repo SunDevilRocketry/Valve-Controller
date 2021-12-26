@@ -825,4 +825,33 @@ U 624AA92C
 F0 "Solenoids" 50
 F1 "Solenoids.sch" 50
 $EndSheet
+$Comp
+L L0005-Valve-Controller:647676-2 P?
+U 1 1 62660979
+P 9650 1400
+F 0 "P?" H 10180 1350 60  0000 L CNN
+F 1 "647676-2" H 10178 1297 60  0001 L CNN
+F 2 "CONN_2043-1X04G00DAU_OUP" H 10000 850 60  0001 C CNN
+F 3 "" H 9650 1400 60  0001 C CNN
+	1    9650 1400
+	1    0    0    -1  
+$EndComp
+Text GLabel 9500 1400 0    50   Input ~ 0
+AC_HOT
+Wire Wire Line
+	9500 1400 9650 1400
+Text GLabel 9500 1500 0    50   Input ~ 0
+AC_NEUTRAL
+Wire Wire Line
+	9500 1500 9650 1500
+Wire Notes Line
+	8750 1025 10500 1025
+Wire Notes Line
+	10500 1025 10500 1750
+Wire Notes Line
+	10500 1750 8750 1750
+Wire Notes Line
+	8750 1750 8750 1025
+Text Notes 8825 1150 0    50   ~ 0
+120V AC Source
 $EndSCHEMATC
