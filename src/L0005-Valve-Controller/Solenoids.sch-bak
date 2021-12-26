@@ -1,0 +1,159 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title "Solenoids"
+Date "2021-12-25"
+Rev "1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 1525 1600 0    50   Input ~ 0
+SOL1
+Wire Wire Line
+	1525 1600 1600 1600
+$Comp
+L L0005-Valve-Controller:RES_0603 R?
+U 1 1 624B39E0
+P 1525 2150
+AR Path="/624B39E0" Ref="R?"  Part="1" 
+AR Path="/624AA92C/624B39E0" Ref="R2"  Part="1" 
+F 0 "R2" V 1479 2219 50  0000 L CNN
+F 1 "100" V 1570 2219 50  0000 L CNN
+F 2 "" H 1575 1650 50  0001 L BNN
+F 3 "" H 1525 2150 50  0001 L BNN
+	1    1525 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1525 2000 1525 1950
+Wire Wire Line
+	1525 1950 1600 1950
+$Comp
+L L0005-Valve-Controller:Earth #PWR?
+U 1 1 624B39E8
+P 1525 2375
+AR Path="/624B39E8" Ref="#PWR?"  Part="1" 
+AR Path="/624AA92C/624B39E8" Ref="#PWR011"  Part="1" 
+F 0 "#PWR011" H 1525 2125 50  0001 C CNN
+F 1 "Earth" H 1525 2225 50  0001 C CNN
+F 2 "" H 1525 2375 50  0001 C CNN
+F 3 "" H 1525 2375 50  0001 C CNN
+	1    1525 2375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1525 2375 1525 2300
+$Comp
+L L0005-Valve-Controller:AQH0223AX K?
+U 1 1 624B39EF
+P 2000 1700
+AR Path="/624B39EF" Ref="K?"  Part="1" 
+AR Path="/624AA92C/624B39EF" Ref="K1"  Part="1" 
+F 0 "K1" H 2000 2075 50  0000 C CNN
+F 1 "AQH0223AX" H 2000 2076 50  0001 C CNN
+F 2 "RELAY_AQH0223AX" H 2300 1200 50  0001 L BNN
+F 3 "" H 2000 1700 50  0001 L BNN
+	1    2000 1700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2400 1900
+$Comp
+L L0005-Valve-Controller:Varistor RV?
+U 1 1 624B39F6
+P 2575 1650
+AR Path="/624B39F6" Ref="RV?"  Part="1" 
+AR Path="/624AA92C/624B39F6" Ref="RV1"  Part="1" 
+F 0 "RV1" H 2650 1675 50  0000 L CNN
+F 1 "275V" H 2650 1575 50  0000 L CNN
+F 2 "" V 2505 1650 50  0001 C CNN
+F 3 "~" H 2575 1650 50  0001 C CNN
+	1    2575 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2575 1500 2400 1500
+Wire Wire Line
+	2575 1800 2400 1800
+$Comp
+L L0005-Valve-Controller:CAP_1206 C?
+U 1 1 624B39FE
+P 3000 1650
+AR Path="/624B39FE" Ref="C?"  Part="1" 
+AR Path="/624AA92C/624B39FE" Ref="C16"  Part="1" 
+F 0 "C16" V 2954 1753 50  0000 L CNN
+F 1 "0.1uF" V 3045 1753 50  0000 L CNN
+F 2 "" H 2900 1250 50  0001 L BNN
+F 3 "" H 2950 1650 50  0001 L BNN
+	1    3000 1650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2575 1500 3000 1500
+Connection ~ 2575 1500
+Wire Wire Line
+	2575 2175 2575 1800
+Connection ~ 2575 1800
+Connection ~ 3000 1500
+Text GLabel 3125 2175 2    50   Input ~ 0
+AC_NEUTRAL
+$Comp
+L L0005-Valve-Controller:647676-3 P3
+U 1 1 624EB148
+P 3875 1650
+F 0 "P3" H 4200 1825 60  0000 L CNN
+F 1 "647676-3" H 4403 1497 60  0001 L CNN
+F 2 "CONN_2043-1X04G00DAU_OUP" H 4225 1100 60  0001 C CNN
+F 3 "" H 3875 1650 60  0001 C CNN
+	1    3875 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3575 1500 3575 1650
+Wire Wire Line
+	3575 1650 3875 1650
+Wire Wire Line
+	3000 1500 3575 1500
+Text GLabel 3700 1750 0    50   Input ~ 0
+AC_HOT
+Wire Wire Line
+	3700 1750 3875 1750
+NoConn ~ 3875 1850
+Wire Notes Line
+	1125 1150 4700 1150
+Wire Notes Line
+	4700 1150 4700 2650
+Wire Notes Line
+	4700 2650 1150 2650
+Wire Notes Line
+	1150 2650 1150 1150
+Text Notes 2575 1325 0    50   ~ 0
+Solenoid 1
+Text Notes 3850 2225 0    50   ~ 0
+LOX Pressurization\nNormally Closed
+$Comp
+L L0005-Valve-Controller:RES_0603 R?
+U 1 1 624B3A04
+P 3000 1950
+AR Path="/624B3A04" Ref="R?"  Part="1" 
+AR Path="/624AA92C/624B3A04" Ref="R3"  Part="1" 
+F 0 "R3" V 2954 2019 50  0000 L CNN
+F 1 "100" V 3045 2019 50  0000 L CNN
+F 2 "" H 3050 1450 50  0001 L BNN
+F 3 "" H 3000 1950 50  0001 L BNN
+	1    3000 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3000 2100 3000 2175
+Wire Wire Line
+	3000 2175 3125 2175
+Wire Wire Line
+	2575 2175 3000 2175
+Connection ~ 3000 2175
+$EndSCHEMATC
