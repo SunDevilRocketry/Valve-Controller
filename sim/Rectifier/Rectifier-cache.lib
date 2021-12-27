@@ -1,16 +1,40 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Rectifier_Sim_GND
+# Rectifier_Sim_C
 #
-DEF Rectifier_Sim_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Rectifier_Sim_GND" 0 -150 50 H V C CNN
+DEF Rectifier_Sim_C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Rectifier_Sim_C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Rectifier_Sim_DIODE
+#
+DEF Rectifier_Sim_DIODE D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Rectifier_Sim_DIODE" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
+F5 "D" 0 0 50 H I L CNN "Spice_Primitive"
+F6 "DIODE" 0 100 50 H V C CNN "Spice_Model"
 DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
+P 2 0 1 0 50 0 -50 0 N
+P 2 0 1 10 50 50 50 -50 N
+P 4 0 1 10 -50 -50 -50 50 50 0 -50 -50 N
+X A 1 -150 0 100 R 50 50 1 1 P
+X K 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -52,6 +76,19 @@ C 0 0 100 0 1 10 f
 T 0 0 75 50 0 0 0 + Normal 0 C C
 X ~ 1 0 200 100 D 50 50 1 1 P
 X ~ 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# pspice_0
+#
+DEF pspice_0 #GND 0 0 Y Y 1 F P
+F0 "#GND" 0 -100 50 H I C CNN
+F1 "pspice_0" 0 -70 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 4 0 1 0 -50 0 0 -50 50 0 -50 0 N
+X 0 1 0 0 0 R 40 40 1 1 W N
 ENDDRAW
 ENDDEF
 #

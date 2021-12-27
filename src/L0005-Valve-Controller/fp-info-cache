@@ -1,4 +1,4 @@
-109662219610892
+114588320932892
 Engine-Controller
 12V_power_jack
 
@@ -364,8 +364,22 @@ CWR11HH106KB
 2
 2
 L0005-Valve-Controller
+FUSC9830X318N
+
+
+0
+2
+2
+L0005-Valve-Controller
 Jumper-NO
 <b>CAPACITOR</b>
+
+0
+2
+2
+L0005-Valve-Controller
+LED_RED
+
 
 0
 2
@@ -443,6 +457,13 @@ RELAY_AQH0223AX
 L0005-Valve-Controller
 RES_0603
 <b>RESISTOR</b>
+
+0
+2
+2
+L0005-Valve-Controller
+RES_0805
+
 
 0
 2

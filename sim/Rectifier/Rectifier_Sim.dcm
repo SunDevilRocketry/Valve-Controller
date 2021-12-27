@@ -29,6 +29,12 @@ K R res resistor
 F ~
 $ENDCMP
 #
+$CMP VDC
+D Voltage source, DC
+K simulation
+F ~
+$ENDCMP
+#
 $CMP VSIN
 D Voltage source, sinusoidal
 K simulation

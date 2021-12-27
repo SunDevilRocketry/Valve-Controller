@@ -18,6 +18,11 @@ K simulation
 F ~
 $ENDCMP
 #
+$CMP GND
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
+$ENDCMP
+#
 $CMP Resistor
 D Resistor, US symbol
 K R res resistor

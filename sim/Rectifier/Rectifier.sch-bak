@@ -48,9 +48,29 @@ Wire Wire Line
 Wire Wire Line
 	4250 3575 4250 3725
 Wire Wire Line
-	4250 3725 3125 3725
+	4250 3725 3700 3725
 Wire Wire Line
 	3125 3725 3125 3650
 Wire Wire Line
 	3125 3125 4250 3125
+$Comp
+L Rectifier_Sim:GND #PWR?
+U 1 1 61CB0C8D
+P 3700 3800
+F 0 "#PWR?" H 3700 3550 50  0001 C CNN
+F 1 "GND" H 3705 3627 50  0000 C CNN
+F 2 "" H 3700 3800 50  0001 C CNN
+F 3 "" H 3700 3800 50  0001 C CNN
+	1    3700 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3800 3700 3725
+Connection ~ 3700 3725
+Wire Wire Line
+	3700 3725 3125 3725
+Text Notes 3275 3125 0    50   ~ 0
+V+\n
+Text Notes 4000 3725 0    50   ~ 0
+GND\n
 $EndSCHEMATC
