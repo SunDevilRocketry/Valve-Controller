@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name Simulation_SPICE)(type Legacy)(uri /home/olsport/Software/kicad/kicad-symbols-master/Simulation_SPICE.lib)(options "")(descr ""))
+  (lib (name pspice)(type Legacy)(uri /home/olsport/Software/kicad/kicad-symbols-master/pspice.lib)(options "")(descr ""))
+  (lib (name Device)(type Legacy)(uri /home/olsport/Software/kicad/kicad-symbols-master/Device.lib)(options "")(descr ""))
+  (lib (name Rectifier_Sim)(type Legacy)(uri ${KIPRJMOD}/Rectifier_Sim.lib)(options "")(descr ""))
+  (lib (name power)(type Legacy)(uri /home/olsport/Software/kicad/kicad-symbols-master/power.lib)(options "")(descr ""))
+)

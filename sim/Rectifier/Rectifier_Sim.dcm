@@ -1,0 +1,38 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP D
+D Diode
+K diode
+F ~
+$ENDCMP
+#
+$CMP DIODE
+D Diode, anode on pin 1, for simulation only!
+K simulation
+F ~
+$ENDCMP
+#
+$CMP GND
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
+$ENDCMP
+#
+$CMP Resistor
+D Resistor, US symbol
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP VSIN
+D Voltage source, sinusoidal
+K simulation
+F ~
+$ENDCMP
+#
+#End Doc Library
