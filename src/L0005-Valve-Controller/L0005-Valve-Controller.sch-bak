@@ -379,7 +379,7 @@ $EndComp
 Text GLabel 4175 6825 0    50   Input ~ 0
 NRST
 Wire Wire Line
-	4175 6825 4400 6825
+	4175 6825 4300 6825
 $Comp
 L L0005-Valve-Controller:Earth #PWR06
 U 1 1 6204E423
@@ -703,7 +703,7 @@ F 3 "" H 3500 5175 50  0001 L BNN
 	1    3550 5175
 	0    1    1    0   
 $EndComp
-Text Notes 3975 6600 0    50   ~ 0
+Text Notes 3900 6575 0    50   ~ 0
 Reset \nControl
 $Comp
 L L0005-Valve-Controller:Jumper_NO J1
@@ -1815,4 +1815,41 @@ Text GLabel 4650 2125 2    50   Input ~ 0
 SOL6
 Wire Wire Line
 	4300 2125 4650 2125
+NoConn ~ 1700 4025
+NoConn ~ 1700 3925
+NoConn ~ 1700 3825
+NoConn ~ 1700 3725
+NoConn ~ 1700 3625
+NoConn ~ 1700 2925
+NoConn ~ 1700 2825
+NoConn ~ 1700 2725
+NoConn ~ 1700 2625
+NoConn ~ 1700 2525
+NoConn ~ 1700 2425
+NoConn ~ 1700 2025
+NoConn ~ 1700 1725
+NoConn ~ 1700 1425
+NoConn ~ 1700 1325
+NoConn ~ 1700 1225
+NoConn ~ 1700 1125
+NoConn ~ 4300 1425
+NoConn ~ 4300 1525
+NoConn ~ 4300 1625
+NoConn ~ 4300 1725
+NoConn ~ 4300 1825
+NoConn ~ 4300 3125
+$Comp
+L L0005-Valve-Controller:TP TP1
+U 1 1 62865BE7
+P 4300 6825
+F 0 "TP1" H 4375 7175 50  0000 L CNN
+F 1 "TP" H 4378 6922 50  0001 L CNN
+F 2 "" H 4300 6825 50  0001 C CNN
+F 3 "" H 4300 6825 50  0001 C CNN
+	1    4300 6825
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 6825
+Wire Wire Line
+	4300 6825 4400 6825
 $EndSCHEMATC
