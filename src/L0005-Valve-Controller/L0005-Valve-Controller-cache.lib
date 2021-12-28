@@ -648,7 +648,7 @@ ENDDEF
 # L0005-Valve-Controller_Logo
 #
 DEF L0005-Valve-Controller_Logo LOGO 0 40 Y Y 1 F N
-F0 "LOGO" 0 200 50 H V C CNN
+F0 "LOGO" 0 200 50 H I C CNN
 F1 "L0005-Valve-Controller_Logo" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN

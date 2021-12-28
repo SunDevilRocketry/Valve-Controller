@@ -874,56 +874,45 @@ Connection ~ 8050 5525
 $Comp
 L L0005-Valve-Controller:Logo LOGO1
 U 1 1 62A36897
-P 2525 6575
-F 0 "LOGO1" H 2703 6621 50  0001 L CNN
-F 1 "Logo" H 2425 6825 50  0000 L CNN
-F 2 "L0005-Valve-Controller:Logo" H 2525 6575 50  0001 C CNN
-F 3 "" H 2525 6575 50  0001 C CNN
-	1    2525 6575
-	1    0    0    -1  
-$EndComp
-$Comp
-L L0005-Valve-Controller:Mounting-Hole H2
-U 1 1 62A393A7
-P 2975 6575
-F 0 "H2" H 2925 6800 50  0000 L CNN
-F 1 "Mounting-Hole" H 2725 6350 50  0000 L CNN
-F 2 "L0005-Valve-Controller:MountingHole_4.3mm_M4_DIN965" H 2975 6575 50  0001 C CNN
-F 3 "" H 2975 6575 50  0001 C CNN
-	1    2975 6575
+P 2775 6600
+F 0 "LOGO1" H 2953 6646 50  0001 L CNN
+F 1 "Logo" H 2700 6400 50  0000 L CNN
+F 2 "L0005-Valve-Controller:Logo" H 2775 6600 50  0001 C CNN
+F 3 "" H 2775 6600 50  0001 C CNN
+	1    2775 6600
 	1    0    0    -1  
 $EndComp
 $Comp
 L L0005-Valve-Controller:Mounting-Hole H3
 U 1 1 62A3F7E0
-P 3625 6575
-F 0 "H3" H 3575 6800 50  0000 L CNN
-F 1 "Mounting-Hole" H 3375 6350 50  0000 L CNN
-F 2 "L0005-Valve-Controller:MountingHole_4.3mm_M4_DIN965" H 3625 6575 50  0001 C CNN
-F 3 "" H 3625 6575 50  0001 C CNN
-	1    3625 6575
+P 3450 6625
+F 0 "H3" H 3400 6850 50  0000 L CNN
+F 1 "Mounting-Hole" H 3200 6400 50  0000 L CNN
+F 2 "L0005-Valve-Controller:MountingHole_4.3mm_M4_DIN965" H 3450 6625 50  0001 C CNN
+F 3 "" H 3450 6625 50  0001 C CNN
+	1    3450 6625
 	1    0    0    -1  
 $EndComp
 $Comp
 L L0005-Valve-Controller:Mounting-Hole H1
 U 1 1 62A3FA12
-P 2950 7150
-F 0 "H1" H 2900 7375 50  0000 L CNN
-F 1 "Mounting-Hole" H 2700 6925 50  0000 L CNN
-F 2 "L0005-Valve-Controller:MountingHole_4.3mm_M4_DIN965" H 2950 7150 50  0001 C CNN
-F 3 "" H 2950 7150 50  0001 C CNN
-	1    2950 7150
+P 2775 7200
+F 0 "H1" H 2725 7425 50  0000 L CNN
+F 1 "Mounting-Hole" H 2525 6975 50  0000 L CNN
+F 2 "L0005-Valve-Controller:MountingHole_4.3mm_M4_DIN965" H 2775 7200 50  0001 C CNN
+F 3 "" H 2775 7200 50  0001 C CNN
+	1    2775 7200
 	1    0    0    -1  
 $EndComp
 $Comp
 L L0005-Valve-Controller:Mounting-Hole H4
 U 1 1 62A4004E
-P 3625 7150
-F 0 "H4" H 3575 7375 50  0000 L CNN
-F 1 "Mounting-Hole" H 3375 6925 50  0000 L CNN
-F 2 "L0005-Valve-Controller:MountingHole_4.3mm_M4_DIN965" H 3625 7150 50  0001 C CNN
-F 3 "" H 3625 7150 50  0001 C CNN
-	1    3625 7150
+P 3450 7200
+F 0 "H4" H 3400 7425 50  0000 L CNN
+F 1 "Mounting-Hole" H 3200 6975 50  0000 L CNN
+F 2 "L0005-Valve-Controller:MountingHole_4.3mm_M4_DIN965" H 3450 7200 50  0001 C CNN
+F 3 "" H 3450 7200 50  0001 C CNN
+	1    3450 7200
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -934,4 +923,6 @@ Wire Notes Line
 	4100 7550 2225 7550
 Wire Notes Line
 	2225 7550 2225 6225
+Text Notes 2300 6350 0    50   ~ 0
+Misc.
 $EndSCHEMATC

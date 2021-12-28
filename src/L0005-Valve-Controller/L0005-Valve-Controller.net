@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/olsport/Documents/SDR/PCB/L0005-Valve-Controller/src/L0005-Valve-Controller/L0005-Valve-Controller.sch)
-    (date "Mon Dec 27 19:29:47 2021")
+    (date "Tue Dec 28 15:32:14 2021")
     (tool "Eeschema 5.1.10")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -619,12 +619,6 @@
       (libsource (lib L0005-Valve-Controller) (part Logo) (description ""))
       (sheetpath (names /Solenoids/) (tstamps /624AA92C/))
       (tstamp 62A36897))
-    (comp (ref H2)
-      (value Mounting-Hole)
-      (footprint L0005-Valve-Controller:MountingHole_4.3mm_M4_DIN965)
-      (libsource (lib L0005-Valve-Controller) (part Mounting-Hole) (description ""))
-      (sheetpath (names /Solenoids/) (tstamps /624AA92C/))
-      (tstamp 62A393A7))
     (comp (ref H3)
       (value Mounting-Hole)
       (footprint L0005-Valve-Controller:MountingHole_4.3mm_M4_DIN965)
