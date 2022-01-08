@@ -1664,7 +1664,7 @@
     )
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:RES_0603") (at 55.245 51.435 270)
+  (symbol (lib_id "L0005-Valve-Controller:RES_0603") (at 55.245 51.435 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000624b39e0)
     (property "Reference" "R2" (id 0) (at 56.9976 50.2666 90)
@@ -1683,7 +1683,7 @@
     (pin "2" (uuid 40ef82a7-1843-41e2-896c-620f16b91b4f))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:Earth") (at 55.245 57.15 0)
+  (symbol (lib_id "L0005-Valve-Controller:Earth") (at 55.245 57.15 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000624b39e8)
     (property "Reference" "#PWR011" (id 0) (at 55.245 63.5 0)
@@ -1701,7 +1701,7 @@
     (pin "1" (uuid a1533d6a-9d56-4622-800a-f5af923f4a97))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:AQH0223AX") (at 67.31 40.005 0)
+  (symbol (lib_id "L0005-Valve-Controller:AQH0223AX") (at 67.31 40.005 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000624b39ef)
     (property "Reference" "K1" (id 0) (at 67.31 30.48 0))
@@ -1723,7 +1723,7 @@
     (pin "8" (uuid f420833d-9f22-43c2-813c-6543682555e5))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:Varistor") (at 81.915 38.735 0)
+  (symbol (lib_id "L0005-Valve-Controller:Varistor") (at 81.915 38.735 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000624b39f6)
     (property "Reference" "RV1" (id 0) (at 83.82 38.1 0)
@@ -1742,7 +1742,7 @@
     (pin "2" (uuid 03a79994-33b9-4df6-bdb0-d3807834d731))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:CAP_1206") (at 92.71 38.735 270)
+  (symbol (lib_id "L0005-Valve-Controller:CAP_1206") (at 92.71 38.735 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000624b39fe)
     (property "Reference" "C16" (id 0) (at 95.3262 37.5666 90)
@@ -1761,7 +1761,7 @@
     (pin "2" (uuid c1fbee58-f474-4414-9110-64abd03ed7c9))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:RES_0603") (at 92.71 46.355 270)
+  (symbol (lib_id "L0005-Valve-Controller:RES_0603") (at 92.71 46.355 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000624b3a04)
     (property "Reference" "R3" (id 0) (at 94.4626 45.1866 90)
@@ -1800,7 +1800,7 @@
     (pin "3" (uuid 3e82ba62-7189-4489-87d5-60db49657901))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:RES_0603") (at 54.61 95.25 270)
+  (symbol (lib_id "L0005-Valve-Controller:RES_0603") (at 54.61 95.25 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006257dd1a)
     (property "Reference" "R4" (id 0) (at 56.3626 94.0816 90)
@@ -1819,7 +1819,7 @@
     (pin "2" (uuid e595c6c4-f51e-40bc-a76d-c0a08bbd62be))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:Earth") (at 54.61 100.965 0)
+  (symbol (lib_id "L0005-Valve-Controller:Earth") (at 54.61 100.965 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006257dd22)
     (property "Reference" "#PWR012" (id 0) (at 54.61 107.315 0)
@@ -1837,7 +1837,7 @@
     (pin "1" (uuid d2b76814-7e11-4ea5-b409-7892e0c8500a))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:AQH0223AX") (at 66.675 83.82 0)
+  (symbol (lib_id "L0005-Valve-Controller:AQH0223AX") (at 66.675 83.82 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006257dd29)
     (property "Reference" "K2" (id 0) (at 66.675 74.295 0))
@@ -1859,7 +1859,7 @@
     (pin "8" (uuid d0c5561a-ecf5-4fb9-9963-743c221a8335))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:Varistor") (at 81.28 82.55 0)
+  (symbol (lib_id "L0005-Valve-Controller:Varistor") (at 81.28 82.55 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006257dd30)
     (property "Reference" "RV2" (id 0) (at 83.185 81.915 0)
@@ -1878,7 +1878,7 @@
     (pin "2" (uuid 86856bef-d161-4600-b8d6-44f81ad42b7c))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:CAP_1206") (at 92.075 82.55 270)
+  (symbol (lib_id "L0005-Valve-Controller:CAP_1206") (at 92.075 82.55 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006257dd38)
     (property "Reference" "C17" (id 0) (at 94.6912 81.3816 90)
@@ -1917,7 +1917,7 @@
     (pin "3" (uuid eb8da7b1-c954-4f96-b636-28a01b4ed609))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:RES_0603") (at 92.075 90.17 270)
+  (symbol (lib_id "L0005-Valve-Controller:RES_0603") (at 92.075 90.17 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006257dd56)
     (property "Reference" "R6" (id 0) (at 93.8276 89.0016 90)
@@ -1936,7 +1936,7 @@
     (pin "2" (uuid d0b8883f-56d3-436a-a178-a658388f963b))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:RES_0603") (at 54.61 139.7 270)
+  (symbol (lib_id "L0005-Valve-Controller:RES_0603") (at 54.61 139.7 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006258176b)
     (property "Reference" "R5" (id 0) (at 56.3626 138.5316 90)
@@ -1955,7 +1955,7 @@
     (pin "2" (uuid 6b1d6bcd-1928-474b-8dbd-6dab746597ca))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:Earth") (at 54.61 145.415 0)
+  (symbol (lib_id "L0005-Valve-Controller:Earth") (at 54.61 145.415 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062581773)
     (property "Reference" "#PWR013" (id 0) (at 54.61 151.765 0)
@@ -1973,7 +1973,7 @@
     (pin "1" (uuid ab3e0d45-ad5b-42a1-ab02-8fee32ad804e))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:AQH0223AX") (at 66.675 128.27 0)
+  (symbol (lib_id "L0005-Valve-Controller:AQH0223AX") (at 66.675 128.27 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006258177a)
     (property "Reference" "K3" (id 0) (at 66.675 118.745 0))
@@ -1995,7 +1995,7 @@
     (pin "8" (uuid 443b842e-cdd6-495f-a7fb-0cef04c17274))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:Varistor") (at 81.28 127 0)
+  (symbol (lib_id "L0005-Valve-Controller:Varistor") (at 81.28 127 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062581781)
     (property "Reference" "RV3" (id 0) (at 83.185 126.365 0)
@@ -2014,7 +2014,7 @@
     (pin "2" (uuid 6bdf4c09-0d97-4f84-a45b-4830c8cb3132))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:CAP_1206") (at 92.075 127 270)
+  (symbol (lib_id "L0005-Valve-Controller:CAP_1206") (at 92.075 127 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062581789)
     (property "Reference" "C18" (id 0) (at 94.6912 125.8316 90)
@@ -2053,7 +2053,7 @@
     (pin "3" (uuid 570ee06f-38f1-44a9-ae2b-f08cf56305e0))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:RES_0603") (at 92.075 134.62 270)
+  (symbol (lib_id "L0005-Valve-Controller:RES_0603") (at 92.075 134.62 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000625817a7)
     (property "Reference" "R7" (id 0) (at 93.8276 133.4516 90)
@@ -2072,7 +2072,7 @@
     (pin "2" (uuid b29fb2cb-e4b7-4450-8086-3c4d31478159))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:RES_0603") (at 167.64 51.435 270)
+  (symbol (lib_id "L0005-Valve-Controller:RES_0603") (at 167.64 51.435 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000625bd6df)
     (property "Reference" "R10" (id 0) (at 169.3926 50.2666 90)
@@ -2091,7 +2091,7 @@
     (pin "2" (uuid fd955970-c990-4603-96b5-f465442bdb88))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:Earth") (at 167.64 57.15 0)
+  (symbol (lib_id "L0005-Valve-Controller:Earth") (at 167.64 57.15 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000625bd6e7)
     (property "Reference" "#PWR016" (id 0) (at 167.64 63.5 0)
@@ -2109,7 +2109,7 @@
     (pin "1" (uuid 4eeb2bf2-5aa0-4534-94bd-c0dab739d13b))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:AQH0223AX") (at 179.705 40.005 0)
+  (symbol (lib_id "L0005-Valve-Controller:AQH0223AX") (at 179.705 40.005 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000625bd6ee)
     (property "Reference" "K6" (id 0) (at 179.705 30.48 0))
@@ -2131,7 +2131,7 @@
     (pin "8" (uuid 2460f6d2-1d7c-4c35-9be4-33dfefab8082))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:Varistor") (at 194.31 38.735 0)
+  (symbol (lib_id "L0005-Valve-Controller:Varistor") (at 194.31 38.735 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000625bd6f5)
     (property "Reference" "RV6" (id 0) (at 196.215 38.1 0)
@@ -2150,7 +2150,7 @@
     (pin "2" (uuid fc48681f-9397-420c-a160-4d40e8208b22))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:CAP_1206") (at 205.105 38.735 270)
+  (symbol (lib_id "L0005-Valve-Controller:CAP_1206") (at 205.105 38.735 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000625bd6fd)
     (property "Reference" "C21" (id 0) (at 207.7212 37.5666 90)
@@ -2189,7 +2189,7 @@
     (pin "3" (uuid 5367a494-64b6-4f8c-adca-814c4b88525b))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:RES_0603") (at 205.105 46.355 270)
+  (symbol (lib_id "L0005-Valve-Controller:RES_0603") (at 205.105 46.355 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000625bd71b)
     (property "Reference" "R13" (id 0) (at 206.8576 45.1866 90)
@@ -2208,7 +2208,7 @@
     (pin "2" (uuid 54801b85-fd78-4df4-a039-798d15f1a062))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:RES_0603") (at 167.005 95.25 270)
+  (symbol (lib_id "L0005-Valve-Controller:RES_0603") (at 167.005 95.25 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000625bd727)
     (property "Reference" "R8" (id 0) (at 168.7576 94.0816 90)
@@ -2227,7 +2227,7 @@
     (pin "2" (uuid 2edba9d3-c333-4296-851f-3df46822dd7b))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:Earth") (at 167.005 100.965 0)
+  (symbol (lib_id "L0005-Valve-Controller:Earth") (at 167.005 100.965 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000625bd72f)
     (property "Reference" "#PWR014" (id 0) (at 167.005 107.315 0)
@@ -2245,7 +2245,7 @@
     (pin "1" (uuid 04b9ebfa-2699-4160-9e9c-0c509052f4c5))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:AQH0223AX") (at 179.07 83.82 0)
+  (symbol (lib_id "L0005-Valve-Controller:AQH0223AX") (at 179.07 83.82 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000625bd736)
     (property "Reference" "K4" (id 0) (at 179.07 74.295 0))
@@ -2267,7 +2267,7 @@
     (pin "8" (uuid 27c35e8b-315a-496f-813b-9dd8fc243144))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:Varistor") (at 193.675 82.55 0)
+  (symbol (lib_id "L0005-Valve-Controller:Varistor") (at 193.675 82.55 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000625bd73d)
     (property "Reference" "RV4" (id 0) (at 195.58 81.915 0)
@@ -2286,7 +2286,7 @@
     (pin "2" (uuid d18dfc73-4f65-499b-85e8-0e65b03fabb2))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:CAP_1206") (at 204.47 82.55 270)
+  (symbol (lib_id "L0005-Valve-Controller:CAP_1206") (at 204.47 82.55 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000625bd745)
     (property "Reference" "C19" (id 0) (at 207.0862 81.3816 90)
@@ -2325,7 +2325,7 @@
     (pin "3" (uuid 34d6d782-5641-4526-b346-05de03ea8c0e))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:RES_0603") (at 204.47 90.17 270)
+  (symbol (lib_id "L0005-Valve-Controller:RES_0603") (at 204.47 90.17 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000625bd763)
     (property "Reference" "R11" (id 0) (at 206.2226 89.0016 90)
@@ -2344,7 +2344,7 @@
     (pin "2" (uuid 9c1b71cf-44fe-4b7f-bf7f-4966704258c9))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:RES_0603") (at 167.005 139.7 270)
+  (symbol (lib_id "L0005-Valve-Controller:RES_0603") (at 167.005 139.7 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000625bd76f)
     (property "Reference" "R9" (id 0) (at 168.7576 138.5316 90)
@@ -2363,7 +2363,7 @@
     (pin "2" (uuid 978f5906-8b9c-49a6-9b77-25cbc28e396e))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:Earth") (at 167.005 145.415 0)
+  (symbol (lib_id "L0005-Valve-Controller:Earth") (at 167.005 145.415 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000625bd777)
     (property "Reference" "#PWR015" (id 0) (at 167.005 151.765 0)
@@ -2381,7 +2381,7 @@
     (pin "1" (uuid 2009ab3a-f4bf-4c63-a0fe-9d170c762787))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:AQH0223AX") (at 179.07 128.27 0)
+  (symbol (lib_id "L0005-Valve-Controller:AQH0223AX") (at 179.07 128.27 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000625bd77e)
     (property "Reference" "K5" (id 0) (at 179.07 118.745 0))
@@ -2403,7 +2403,7 @@
     (pin "8" (uuid dfdaa22a-0489-48da-8a56-737e4c4366e1))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:Varistor") (at 193.675 127 0)
+  (symbol (lib_id "L0005-Valve-Controller:Varistor") (at 193.675 127 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000625bd785)
     (property "Reference" "RV5" (id 0) (at 195.58 126.365 0)
@@ -2422,7 +2422,7 @@
     (pin "2" (uuid 7966563c-e279-4a7c-bf41-af45d42c4a74))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:CAP_1206") (at 204.47 127 270)
+  (symbol (lib_id "L0005-Valve-Controller:CAP_1206") (at 204.47 127 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000625bd78d)
     (property "Reference" "C20" (id 0) (at 207.0862 125.8316 90)
@@ -2461,7 +2461,7 @@
     (pin "3" (uuid e567c545-204a-4e4a-bfa9-ae48e2366f9a))
   )
 
-  (symbol (lib_id "L0005-Valve-Controller:RES_0603") (at 204.47 134.62 270)
+  (symbol (lib_id "L0005-Valve-Controller:RES_0603") (at 204.47 134.62 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000625bd7ab)
     (property "Reference" "R12" (id 0) (at 206.2226 133.4516 90)
