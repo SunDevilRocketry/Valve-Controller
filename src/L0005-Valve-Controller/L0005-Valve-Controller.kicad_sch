@@ -5506,6 +5506,18 @@
     (path "/00000000-0000-0000-0000-00006208d93f"
       (reference "#PWR031") (unit 1) (value "Earth") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000624aa92c/0cb67eb3-d565-419b-afe2-29384403d79c"
+      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000624aa92c/5c476fce-cddc-462b-8059-2939069ca562"
+      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000624aa92c/7736816f-eb60-4616-b87b-88e78b8485f7"
+      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000624aa92c/bb5b3dbc-5e4a-4d3b-a7a6-f16719538646"
+      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000062045c3c"
       (reference "B1") (unit 1) (value "PTS647SM38SMTR2LFS") (footprint "L0005-Valve-Controller:PTS647SM38SMTR2LFS")
     )
@@ -5682,6 +5694,18 @@
     )
     (path "/00000000-0000-0000-0000-000061ce039c"
       (reference "P16") (unit 1) (value "647676-2") (footprint "L0005-Valve-Controller:TE_647676-2")
+    )
+    (path "/00000000-0000-0000-0000-0000624aa92c/1007ffed-c15c-4c7d-b504-7a1b2983101f"
+      (reference "Q?") (unit 1) (value "CMLDM7003") (footprint "Package_TO_SOT_THT:TO-92_Inline")
+    )
+    (path "/00000000-0000-0000-0000-0000624aa92c/4439e203-c029-4c47-9bba-4938222acf0c"
+      (reference "Q?") (unit 1) (value "CMLDM7003") (footprint "Package_TO_SOT_THT:TO-92_Inline")
+    )
+    (path "/00000000-0000-0000-0000-0000624aa92c/8d2c7afa-d7da-4d63-9c70-048c13d066b3"
+      (reference "Q?") (unit 2) (value "CMLDM7003") (footprint "Package_TO_SOT_THT:TO-92_Inline")
+    )
+    (path "/00000000-0000-0000-0000-0000624aa92c/8d75b6dc-c029-448b-991b-7243f85687c7"
+      (reference "Q?") (unit 2) (value "CMLDM7003") (footprint "Package_TO_SOT_THT:TO-92_Inline")
     )
     (path "/00000000-0000-0000-0000-000061fed053"
       (reference "R1") (unit 1) (value "240") (footprint "L0005-Valve-Controller:RES_0603")
