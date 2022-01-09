@@ -4882,7 +4882,7 @@
     (property "Reference" "R1" (id 0) (at 76.6826 182.9816 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "240" (id 1) (at 76.6826 185.293 90)
+    (property "Value" "470" (id 1) (at 76.6826 185.293 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "L0005-Valve-Controller:RES_0603" (id 2) (at 62.23 182.88 0)
@@ -4938,7 +4938,7 @@
     (property "Reference" "R24" (id 0) (at 258.2926 101.7016 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "240" (id 1) (at 258.2926 104.013 90)
+    (property "Value" "470" (id 1) (at 258.2926 104.013 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "L0005-Valve-Controller:RES_0603" (id 2) (at 243.84 104.14 0)
@@ -5014,7 +5014,7 @@
     (property "Reference" "R25" (id 0) (at 273.5326 101.7016 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "240" (id 1) (at 273.5326 104.013 90)
+    (property "Value" "470" (id 1) (at 273.5326 104.013 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "L0005-Valve-Controller:RES_0603" (id 2) (at 259.08 104.14 0)
@@ -5708,7 +5708,7 @@
       (reference "Q2") (unit 2) (value "CMLDM7003") (footprint "Package_TO_SOT_THT:TO-92_Inline")
     )
     (path "/00000000-0000-0000-0000-000061fed053"
-      (reference "R1") (unit 1) (value "240") (footprint "L0005-Valve-Controller:RES_0603")
+      (reference "R1") (unit 1) (value "470") (footprint "L0005-Valve-Controller:RES_0603")
     )
     (path "/00000000-0000-0000-0000-0000624aa92c/00000000-0000-0000-0000-0000624b39e0"
       (reference "R2") (unit 1) (value "100") (footprint "L0005-Valve-Controller:RES_0603")
@@ -5777,10 +5777,10 @@
       (reference "R23") (unit 1) (value "5k") (footprint "L0005-Valve-Controller:RES_0603")
     )
     (path "/00000000-0000-0000-0000-00006201850d"
-      (reference "R24") (unit 1) (value "240") (footprint "L0005-Valve-Controller:RES_0603")
+      (reference "R24") (unit 1) (value "470") (footprint "L0005-Valve-Controller:RES_0603")
     )
     (path "/00000000-0000-0000-0000-00006207a00f"
-      (reference "R25") (unit 1) (value "240") (footprint "L0005-Valve-Controller:RES_0603")
+      (reference "R25") (unit 1) (value "470") (footprint "L0005-Valve-Controller:RES_0603")
     )
     (path "/05626d24-7f3e-4329-afec-c3037d7d39d9"
       (reference "R26") (unit 1) (value "100k") (footprint "")
