@@ -1,5 +1,5 @@
 (fp_lib_table
-  (lib (name L0005-Valve-Controller)(type KiCad)(uri /home/olsport/Documents/SDR/PCB/L0005-Valve-Controller/lib/L0005-Valve-Controller.pretty)(options "")(descr ""))
-  (lib (name Engine-Controller)(type KiCad)(uri /home/olsport/Documents/SDR/PCB/Liquids-Engine-Controller/lib/Engine-Controller.pretty)(options "")(descr ""))
-  (lib (name L0004-Photogate)(type KiCad)(uri /home/olsport/Documents/SDR/PCB/L0004-Photogate/lib/L0004-Photogate.pretty)(options "")(descr ""))
+  (lib (name "L0005-Valve-Controller")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB/L0005-Valve-Controller/lib/L0005-Valve-Controller.pretty")(options "")(descr ""))
+  (lib (name "L0004-Photogate")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB/L0004-Photogate/lib/L0004-Photogate.pretty")(options "")(descr ""))
+  (lib (name "Engine-Controller")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB/L0002-Liquids-Engine-Controller/lib/Engine-Controller.pretty")(options "")(descr ""))
 )
