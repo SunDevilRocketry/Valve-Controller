@@ -1,4 +1,4 @@
-114614246410285
+116488289588184
 Engine-Controller
 12V_power_jack
 
@@ -356,6 +356,13 @@ CAP_1206
 0
 2
 2
+L0005-Valve-Controller
+CMLDM7003 TR
+
+
+0
+6
+6
 L0005-Valve-Controller
 CWR11HH106KB
 
