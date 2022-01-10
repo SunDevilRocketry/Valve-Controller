@@ -1,4 +1,4 @@
-116488289588184
+118139423592020
 Engine-Controller
 12V_power_jack
 
@@ -397,7 +397,7 @@ LMS8117AMP-3.3NOPB
 
 0
 4
-4
+3
 L0005-Valve-Controller
 LPC54113J256BD64QL
 
@@ -478,6 +478,13 @@ RES_0805
 L0005-Valve-Controller
 SML-LX1206GC-TR
 
+
+0
+2
+2
+L0005-Valve-Controller
+T491A106K010AT
+10 microFarad Tantalum Capacitor
 
 0
 2

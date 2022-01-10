@@ -4783,7 +4783,7 @@
     (property "Value" "10uF" (id 1) (at 34.29 180.975 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "L0005-Valve-Controller:CWR11HH106KB" (id 2) (at 40.64 177.8 0)
+    (property "Footprint" "L0005-Valve-Controller:T491A106K010AT" (id 2) (at 40.64 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 40.64 177.8 0)
@@ -4802,7 +4802,7 @@
     (property "Value" "10uF" (id 1) (at 66.04 180.975 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "L0005-Valve-Controller:CWR11HH106KB" (id 2) (at 64.135 177.8 0)
+    (property "Footprint" "L0005-Valve-Controller:T491A106K010AT" (id 2) (at 64.135 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 64.135 177.8 0)
@@ -5478,10 +5478,10 @@
       (reference "C13") (unit 1) (value "10nF") (footprint "L0005-Valve-Controller:CAP_0603")
     )
     (path "/00000000-0000-0000-0000-000061fb83f5"
-      (reference "C14") (unit 1) (value "10uF") (footprint "L0005-Valve-Controller:CWR11HH106KB")
+      (reference "C14") (unit 1) (value "10uF") (footprint "L0005-Valve-Controller:T491A106K010AT")
     )
     (path "/00000000-0000-0000-0000-000061fc4d2a"
-      (reference "C15") (unit 1) (value "10uF") (footprint "L0005-Valve-Controller:CWR11HH106KB")
+      (reference "C15") (unit 1) (value "10uF") (footprint "L0005-Valve-Controller:T491A106K010AT")
     )
     (path "/00000000-0000-0000-0000-0000624aa92c/00000000-0000-0000-0000-0000624b39fe"
       (reference "C16") (unit 1) (value "0.1uF") (footprint "L0005-Valve-Controller:CAP_1206")
