@@ -1,4 +1,4 @@
-118140837851200
+118145898877168
 Engine-Controller
 12V_power_jack
 
@@ -245,6 +245,13 @@ IR Emitter
 2
 2
 L0004-Photogate
+Logo
+
+
+0
+0
+0
+L0004-Photogate
 MountingHole_2.1mm
 Mounting Hole 2.1mm, no annular
 mounting hole 2.1mm no annular
@@ -271,7 +278,7 @@ Regulator
 
 0
 4
-4
+3
 L0004-Photogate
 T491A106K010AT
 10 microFarad Tantalum Capacitor
@@ -300,13 +307,6 @@ Phototransistor
 0
 2
 2
-L0004-Photogate
-logo2
-
-
-0
-0
-0
 L0005-Valve-Controller
 140-504-415-000
 
