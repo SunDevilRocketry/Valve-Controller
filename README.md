@@ -23,7 +23,7 @@
 </p>
 
 <h2>3D Model: </h2>
-<img href='img/L0005-Valve-Controller-FRONT.jpg'>
+<img src='img/L0005-Valve-Controller-FRONT.jpg'>
 
 <h2>Schematic: </h2>
 
