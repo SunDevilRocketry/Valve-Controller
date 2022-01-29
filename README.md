@@ -37,5 +37,5 @@
 <h3>Ball Valve PWM Interface</h3>
 <img src='img/Ball-Valve-Schematic.png'>
 
-<h3>Photogates, LEDs, and Supply Monitoring</h3>
-<img src'img/MCU-Misc.png'>
+<h3>AC Voltage Supply Monitoring</h3>
+<img src'img/AC-Supply-Monitoring-schematic.png'>
