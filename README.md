@@ -38,4 +38,4 @@
 <img src='img/Ball-Valve-Schematic.png'>
 
 <h3>Photogates, LEDs, and Supply Monitoring</h3>
-<img src'img/MCU-Misc.png';>
+<img src'img/MCU-Misc.png'>
