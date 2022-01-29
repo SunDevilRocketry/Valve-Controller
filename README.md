@@ -29,5 +29,13 @@
 <h2>Schematic: </h2>
 
 <h3>Microcontroller:</h3>
+<img src='img/MCU-schematic.png'>
 
-<h3>Solenoids and Ball Valves</h3>
+<h3>Solenoids</h3>
+<img src='img/Solenoid-schematic.png'>
+
+<h3>Ball Valve PWM Interface</h3>
+<img src='img/Ball-Valve-Schematic.png'>
+
+<h3>Photogates, LEDs, and Supply Monitoring</h3>
+<img src'img/MCU-Misc.png';>
