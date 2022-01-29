@@ -38,4 +38,4 @@
 <img src='img/Ball-Valve-Schematic.png'>
 
 <h3>AC Voltage Supply Monitoring</h3>
-<img src'img/AC-Supply-Monitoring-schematic.png'>
+<img src='img/AC-Supply-Monitoring-schematic.png'>
