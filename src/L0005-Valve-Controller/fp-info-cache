@@ -1,4 +1,4 @@
-129688184869315
+131345672692530
 Engine-Controller
 12V_power_jack
 
@@ -461,6 +461,13 @@ MAX3370EXK&plus_T
 0
 5
 5
+L0005-Valve-Controller
+MC74HCT138ADR2G
+
+
+0
+16
+16
 L0005-Valve-Controller
 MOLEX_35362-0650
 
