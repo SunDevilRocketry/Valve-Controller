@@ -1,4 +1,4 @@
-118145898877168
+129688184869315
 Engine-Controller
 12V_power_jack
 
@@ -6,6 +6,20 @@ Engine-Controller
 0
 3
 3
+Engine-Controller
+140-504-415-000
+
+
+0
+4
+4
+Engine-Controller
+3220-20-0200-00
+.050" (1,27mm) Shrouded Header for FFSD Series without Strain Relief.
+
+0
+20
+20
 Engine-Controller
 66953-005LF
 
@@ -21,12 +35,33 @@ Engine-Controller
 2
 2
 Engine-Controller
+647676-2
+
+
+0
+2
+2
+Engine-Controller
+39299043
+
+
+0
+4
+4
+Engine-Controller
 0901471110
 
 
 0
 10
 10
+Engine-Controller
+AD623ARZ-R7
+
+
+0
+8
+8
 Engine-Controller
 CAP_0603
 <b>CAPACITOR</b>
@@ -84,6 +119,13 @@ Jumper-NO
 2
 2
 Engine-Controller
+LED_CLMVC-FKA-CL1D1L71BB7C3C3
+
+
+0
+4
+4
+Engine-Controller
 LM22672MRE-5.0_NOPB
 
 
@@ -97,6 +139,13 @@ Logo
 0
 0
 0
+Engine-Controller
+MC74HC4066ADG
+
+
+0
+14
+14
 Engine-Controller
 MPD_EJ508A
 
@@ -146,13 +195,6 @@ RES_0805
 0
 2
 2
-Engine-Controller
-SBH11-PBPC-D10-RA-BK
-
-
-0
-20
-20
 Engine-Controller
 SM5819PL-TP
 
@@ -237,6 +279,13 @@ USB-TypeB
 0
 6
 6
+Engine-Controller
+max4617eue
+
+
+0
+16
+16
 L0004-Photogate
 DIO_VSMY2853SL
 IR Emitter
@@ -399,13 +448,6 @@ LMS8117AMP-3.3NOPB
 4
 3
 L0005-Valve-Controller
-LPC54113J256BD64QL
-
-
-0
-64
-64
-L0005-Valve-Controller
 Logo
 
 
@@ -482,6 +524,13 @@ SML-LX1206GC-TR
 0
 2
 2
+L0005-Valve-Controller
+STM32F334K8U6
+
+
+0
+33
+33
 L0005-Valve-Controller
 T491A106K010AT
 10 microFarad Tantalum Capacitor

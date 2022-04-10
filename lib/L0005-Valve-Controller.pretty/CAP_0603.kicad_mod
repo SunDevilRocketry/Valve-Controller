@@ -1,6 +1,6 @@
 (footprint "CAP_0603" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61DB839E)
+  (tedit 625357A0)
   (descr "<b>CAPACITOR</b>")
   (attr through_hole)
   (fp_text reference "REF**" (at 0 -1.27) (layer "F.SilkS")
