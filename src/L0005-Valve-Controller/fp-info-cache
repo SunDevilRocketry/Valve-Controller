@@ -1,4 +1,4 @@
-131345672692530
+132995310179053
 Engine-Controller
 12V_power_jack
 
@@ -531,6 +531,13 @@ SML-LX1206GC-TR
 0
 2
 2
+L0005-Valve-Controller
+SN74LVC1G139DCTR
+
+
+0
+8
+8
 L0005-Valve-Controller
 STM32F334K8U6
 
