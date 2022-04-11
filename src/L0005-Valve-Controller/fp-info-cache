@@ -1,4 +1,4 @@
-132995310179053
+132995381233392
 Engine-Controller
 12V_power_jack
 
@@ -539,12 +539,12 @@ SN74LVC1G139DCTR
 8
 8
 L0005-Valve-Controller
-STM32F334K8U6
+STM32H750VBT6
 
 
 0
-33
-33
+100
+100
 L0005-Valve-Controller
 T491A106K010AT
 10 microFarad Tantalum Capacitor
