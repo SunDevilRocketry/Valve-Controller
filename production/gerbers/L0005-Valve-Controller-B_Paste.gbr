@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,(6.0.2)*%
-%TF.CreationDate,2022-03-05T21:41:32-07:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,(6.0.4)*%
+%TF.CreationDate,2022-04-12T20:51:16-07:00*%
 %TF.ProjectId,L0005-Valve-Controller,4c303030-352d-4566-916c-76652d436f6e,1.0*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Paste,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (6.0.2)) date 2022-03-05 21:41:32*
+G04 Created by KiCad (PCBNEW (6.0.4)) date 2022-04-12 20:51:16*
 %MOMM*%
 %LPD*%
 G01*
@@ -14,19 +14,19 @@ G04 APERTURE LIST*
 %ADD10C,1.524000*%
 G04 APERTURE END LIST*
 D10*
-%TO.C,TP1*%
-X123571000Y-89336880D03*
-%TD*%
-%TO.C,TP2*%
-X165658800Y-84632800D03*
-%TD*%
-%TO.C,TP3*%
-X161696400Y-84632800D03*
-%TD*%
 %TO.C,TP4*%
-X139192000Y-107238800D03*
+X134518400Y-79146400D03*
 %TD*%
 %TO.C,TP5*%
-X142341600Y-107238800D03*
+X137820400Y-79298800D03*
+%TD*%
+%TO.C,TP3*%
+X145288000Y-82753200D03*
+%TD*%
+%TO.C,TP2*%
+X124053600Y-80924400D03*
+%TD*%
+%TO.C,TP1*%
+X119684800Y-92659200D03*
 %TD*%
 M02*
