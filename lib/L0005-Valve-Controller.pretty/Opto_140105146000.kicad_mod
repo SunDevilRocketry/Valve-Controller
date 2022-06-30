@@ -52,7 +52,7 @@
   (pad "2" smd rect (at -4.9911 1.27) (size 1.2192 0.4572) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp eb3cd951-e2db-4d36-a1e2-d69371c3b40a))
   (pad "3" smd rect (at 4.9911 1.27) (size 1.2192 0.4572) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c685fd71-197e-47e4-ac2a-3de14ae5062b))
   (pad "4" smd rect (at 4.9911 -1.27) (size 1.2192 0.4572) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 752e8ff0-deb6-403f-a0be-46c7b2e2696e))
-  (model "/home/olsport/Documents/SDR/PCB/L0005-Valve-Controller/CAD/3Dfiles/Opto_140105146000.step"
+  (model "/home/olsport/Documents/SDR/PCB/Valve-Controller/CAD/3Dfiles/Opto_140105146000.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

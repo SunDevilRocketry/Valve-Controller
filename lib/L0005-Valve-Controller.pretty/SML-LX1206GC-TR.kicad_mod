@@ -60,4 +60,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
+  (model "/home/olsport/Documents/SDR/PCB/Valve-Controller/CAD/3Dfiles/SML-LX1206GC-TR.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

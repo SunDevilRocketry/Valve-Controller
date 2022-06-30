@@ -28,8 +28,8 @@
   (pad "2" thru_hole circle (at -1 -2.4) (size 1.258 1.258) (drill 0.75) (layers *.Cu *.Mask) (tstamp 331f94ea-13bf-4d1a-b045-374f6a0fa745))
   (pad "3" thru_hole circle (at 1 -2.4) (size 1.258 1.258) (drill 0.75) (layers *.Cu *.Mask) (tstamp 182bc203-9f44-4557-92b1-a634b05cf098))
   (pad "4" thru_hole circle (at 3 -2.4) (size 1.258 1.258) (drill 0.75) (layers *.Cu *.Mask) (tstamp 7cdcb6ff-af6e-438d-acef-1391b8a03b55))
-  (model "/home/olsport/Documents/SDR/PCB/L0005-Valve-Controller/CAD/3Dfiles/140-504-415-000.step"
-    (offset (xyz -2.9972 2.3368 3.175))
+  (model "/home/olsport/Documents/SDR/PCB/Valve-Controller/CAD/3Dfiles/140-504-415-000.step"
+    (offset (xyz -3.048 2.286 3.81))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )

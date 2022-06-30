@@ -38,7 +38,7 @@
   (pad "4" smd rect (at 0.9017 0.508) (size 0.508 0.254) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp cf4939e9-8ae0-4af4-8ec6-e88cfbcbfe6e))
   (pad "5" smd rect (at 0.9017 0) (size 0.508 0.254) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d976a998-0355-4b51-98dc-421418498533))
   (pad "6" smd rect (at 0.9017 -0.508) (size 0.508 0.254) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 436b9e93-01ad-4cd2-a39e-eee50a26ba10))
-  (model "/home/olsport/Documents/SDR/PCB/L0005-Valve-Controller/CAD/3Dfiles/CMLDM7003TR_BRN.step"
+  (model "/home/olsport/Documents/SDR/PCB/Valve-Controller/CAD/3Dfiles/CMLDM7003TR_BRN.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

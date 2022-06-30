@@ -57,4 +57,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
+  (model "/home/olsport/Documents/SDR/PCB/Valve-Controller/CAD/3Dfiles/T491A106K010AT.step"
+    (offset (xyz 1.5748 0.889 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -180))
+  )
 )

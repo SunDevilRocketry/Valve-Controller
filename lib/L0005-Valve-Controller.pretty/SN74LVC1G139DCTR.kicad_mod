@@ -35,4 +35,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
+  (model "/home/olsport/Documents/SDR/PCB/Valve-Controller/CAD/3Dfiles/SN74LVC1G139DCTR.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

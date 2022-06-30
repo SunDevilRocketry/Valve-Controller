@@ -41,4 +41,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
+  (model "/home/olsport/Documents/SDR/PCB/Valve-Controller/CAD/3Dfiles/LMS8117AMP-3.3NOPB.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
