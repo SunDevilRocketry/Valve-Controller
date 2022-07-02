@@ -1908,7 +1908,7 @@
 
   (no_connect (at 104.775 124.46) (uuid 22a23656-9879-42e0-81f6-8bda3d229f3e))
   (no_connect (at 47.625 118.11) (uuid 2bcf1717-8c8a-47a3-b51c-1565f0dc7f89))
-  (no_connect (at 47.625 115.57) (uuid 2bcf1717-8c8a-47a3-b51c-1565f0dc7f89))
+  (no_connect (at 47.625 115.57) (uuid 2bcf1717-8c8a-47a3-b51c-1565f0dc7f8a))
   (no_connect (at 163.83 87.63) (uuid 821cd215-db9b-4095-837f-ad42d37ddff2))
   (no_connect (at 163.83 95.25) (uuid 821cd215-db9b-4095-837f-ad42d37ddff3))
   (no_connect (at 104.775 99.06) (uuid 93615677-4edb-457d-92bd-796bb0bb59b7))
@@ -3488,7 +3488,7 @@
       (reference "#PWR035") (unit 1) (value "Earth") (footprint "")
     )
     (path "/a9eaeea5-207e-44f5-b9ad-eca9290d0207/8f9521e7-a6d2-4346-87ca-d9528ce59a50"
-      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0101") (unit 1) (value "Earth") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000062045c3c"
       (reference "B1") (unit 1) (value "PTS647SM38SMTR2LFS") (footprint "L0005-Valve-Controller:PTS647SM38SMTR2LFS")

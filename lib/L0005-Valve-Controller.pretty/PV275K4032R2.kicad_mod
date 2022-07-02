@@ -38,11 +38,6 @@
   (fp_circle (center -4.4285 0) (end -4.4285 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp e75947c8-36de-4ade-8f43-6a55bba05b02))
   (pad "1" smd rect (at -4.4285 0) (size 1.8542 3.048) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 42da3d72-3550-4f6a-bfc1-79544eea1f8b))
   (pad "2" smd rect (at 4.4285 0) (size 1.8542 3.048) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 468f294c-076d-4cb9-a39a-d662e4f221f4))
-  (model "/home/olsport/Documents/SDR/PCB/L0005-Valve-Controller/CAD/3Dfiles/VP3225K401R250.step"
-    (offset (xyz -4.1148 -3.4798 0.381))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
   (model "/home/olsport/Documents/SDR/PCB/Valve-Controller/CAD/3Dfiles/VP3225K401R250.step"
     (offset (xyz -4.445 -3.175 0))
     (scale (xyz 1 1 1))

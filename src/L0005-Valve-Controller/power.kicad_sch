@@ -2174,7 +2174,7 @@
   (symbol (lib_id "L0005-Valve-Controller:Earth") (at 232.41 65.405 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8f9521e7-a6d2-4346-87ca-d9528ce59a50)
-    (property "Reference" "#PWR?" (id 0) (at 232.41 71.755 0)
+    (property "Reference" "#PWR0101" (id 0) (at 232.41 71.755 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (id 1) (at 232.41 69.215 0)

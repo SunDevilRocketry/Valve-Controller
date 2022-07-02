@@ -388,11 +388,11 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
+      "gencad": "../../../../../../Downloads/L0005-Valve-Controller.cad",
       "idf": "",
       "netlist": "L0005-Valve-Controller.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../../../Downloads/L0005-Valve-Controller.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
