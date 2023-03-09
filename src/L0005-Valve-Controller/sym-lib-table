@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "L0005-Valve-Controller")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB/Valve-Controller/lib/L0005-Valve-Controller.kicad_sym")(options "")(descr ""))
   (lib (name "Flight-Computer")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB/Flight-Computer/lib/Flight-Computer.kicad_sym")(options "")(descr ""))
+  (lib (name "Engine-Controller")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB/Liquid-Engine-Controller/lib/Engine-Controller.kicad_sym")(options "")(descr ""))
 )
