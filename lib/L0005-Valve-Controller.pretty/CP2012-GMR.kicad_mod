@@ -1,6 +1,6 @@
 (footprint "CP2012-GMR" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at -0.127 -3.81) (layer "F.SilkS")
       (effects (font (size 0.8128 0.8128) (thickness 0.15)))
     (tstamp f548aee8-7faa-4c61-b7a3-1d37f296e1b4)

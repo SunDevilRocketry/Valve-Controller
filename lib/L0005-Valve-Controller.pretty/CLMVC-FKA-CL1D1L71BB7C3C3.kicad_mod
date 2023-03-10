@@ -1,6 +1,6 @@
 (footprint "CLMVC-FKA-CL1D1L71BB7C3C3" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 1.675 -2.135) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e65b62be-e01b-4688-a999-1d1be370c4ae)
