@@ -4209,7 +4209,7 @@
     (property "Value" "CMLDM7003" (at 200.66 134.874 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "Package_TO_SOT_THT:TO-92_Inline" (at 201.676 142.748 0)
+    (property "Footprint" "L0005-Valve-Controller:CMLDM7003 TR" (at 201.676 142.748 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" (at 194.31 138.176 0)
@@ -4248,9 +4248,9 @@
     (pin "1" (uuid 1c205737-8b05-400c-b951-71fb158252c3))
     (pin "2" (uuid 1df6dc9c-a35e-4a01-a23e-a911f5b8983a))
     (pin "6" (uuid d3995aea-3067-4b4a-9cba-c304310da93a))
-    (pin "3" (uuid a2c6281c-1798-4c93-a973-786fd5788e7e))
-    (pin "4" (uuid 6a82e1e6-8e23-40fe-9f7f-da90c0712b96))
-    (pin "5" (uuid c6750bbb-1f60-4923-a832-20fb722c1b93))
+    (pin "3" (uuid a2c6281c-1798-4c93-a973-786fd5788e7f))
+    (pin "4" (uuid 6a82e1e6-8e23-40fe-9f7f-da90c0712b97))
+    (pin "5" (uuid c6750bbb-1f60-4923-a832-20fb722c1b94))
     (instances
       (project "L0005-Valve-Controller"
         (path "/86dc7a78-7d51-4111-9eea-8a8f7977eb16/00000000-0000-0000-0000-0000624aa92c"
