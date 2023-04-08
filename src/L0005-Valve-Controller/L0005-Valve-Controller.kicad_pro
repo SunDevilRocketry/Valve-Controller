@@ -463,7 +463,7 @@
       "idf": "",
       "netlist": "L0005-Valve-Controller.net",
       "specctra_dsn": "",
-      "step": "../../../../../../Downloads/L0005-Valve-Controller.step",
+      "step": "../../CAD/L0005-Valve-Controller-Rev3.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
