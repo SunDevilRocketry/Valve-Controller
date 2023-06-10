@@ -24,4 +24,4 @@
 
 <h2>3D Model: </h2>
 <img src='img/L0005-Rev3_1-TOP.png'>
-<img src='img/L0005-Rev3_1-BOTTOM.jpg'>
+<img src='img/L0005-Rev3_1-BOTTOM.png'>
